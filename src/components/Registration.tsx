@@ -121,7 +121,7 @@ export const Registration = () => {
                   <Input
                     id="fullName"
                     type="text"
-                    placeholder="John Doe"
+                    placeholder=""
                     value={formData.fullName}
                     onChange={(e) => handleInputChange("fullName", e.target.value)}
                     required
@@ -133,7 +133,7 @@ export const Registration = () => {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder=""
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
                     required
@@ -145,7 +145,7 @@ export const Registration = () => {
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+267 77 673 163"
+                    placeholder=""
                     value={formData.phone}
                     onChange={(e) => handleInputChange("phone", e.target.value)}
                     required
@@ -157,7 +157,7 @@ export const Registration = () => {
                   <Input
                     id="city"
                     type="text"
-                    placeholder="Gaborone"
+                    placeholder=""
                     value={formData.city}
                     onChange={(e) => handleInputChange("city", e.target.value)}
                     required

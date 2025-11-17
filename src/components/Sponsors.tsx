@@ -4,48 +4,14 @@ import { Crown, Award, Medal, ArrowRight, Handshake } from "lucide-react";
 
 export const Sponsors = () => {
   const sponsorTiers = [
-    {
-      tier: "Gold Sponsors",
-      icon: Crown,
-      color: "text-yellow-600",
-      bgColor: "bg-yellow-50",
-      borderColor: "border-yellow-200",
-      sponsors: [
-        { name: "Green Energy Co.", logo: "🌞", description: "Leading renewable energy provider" },
-        { name: "EcoBank Botswana", logo: "🏦", description: "Sustainable banking solutions" },
-      ],
-    },
-    {
-      tier: "Silver Sponsors",
-      icon: Award,
-      color: "text-gray-500",
-      bgColor: "bg-gray-50",
-      borderColor: "border-gray-200",
-      sponsors: [
-        { name: "Pure Water Systems", logo: "💧", description: "Clean water technology" },
-        { name: "Botswana Airways", logo: "✈️", description: "Your travel partner" },
-        { name: "Green Grocers", logo: "🌿", description: "Organic food supplier" },
-      ],
-    },
-    {
-      tier: "Bronze Sponsors",
-      icon: Medal,
-      color: "text-orange-700",
-      bgColor: "bg-orange-50",
-      borderColor: "border-orange-200",
-      sponsors: [
-        { name: "Local Sports Shop", logo: "👟", description: "Quality sports gear" },
-        { name: "Healthy Cafe", logo: "☕", description: "Organic refreshments" },
-        { name: "Fitness First", logo: "💪", description: "Training & wellness" },
-        { name: "Tech Solutions", logo: "💻", description: "Digital services" },
-      ],
-    },
+   
+    
   ];
 
   const benefits = [
-    { tier: "Gold", amount: "BWP 50,000+", perks: ["Logo on all materials", "VIP booth space", "Social media features", "Speaking opportunity"] },
-    { tier: "Silver", amount: "BWP 25,000+", perks: ["Logo on website & shirts", "Booth space", "Social media mentions"] },
-    { tier: "Bronze", amount: "BWP 10,000+", perks: ["Logo on website", "Social media recognition"] },
+    { tier: "Gold", amount: "BWP ", perks: ["Logo on all materials", "VIP booth space", "Social media features", "Speaking opportunity"] },
+    { tier: "Silver", amount: "BWP ", perks: ["Logo on website & shirts", "Booth space", "Social media mentions"] },
+    { tier: "Bronze", amount: "BWP ", perks: ["Logo on website", "Social media recognition"] },
   ];
 
   return (

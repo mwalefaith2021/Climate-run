@@ -27,7 +27,7 @@ export const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/company/mosepelegreenfoundation",
+      href: "https://www.linkedin.com/company/mosepele-green-foundation/posts/?feedView=all",
       color: "hover:text-[#0A66C2]",
     },
    /*{
